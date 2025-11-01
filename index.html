@@ -130,26 +130,30 @@
         /* Hero Section */
         .hero {
             margin-top: 90px;
-            background: linear-gradient(135deg, var(--light-bg) 0%, var(--white) 100%);
+            background: linear-gradient(135deg, var(--white) 0%, var(--light-bg) 100%);
             color: var(--text-dark);
-            padding: 7rem 3rem;
-            text-align: center;
+            padding: 5rem 3rem 4rem;
+            text-align: left;
         }
 
         .hero-content {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
         .hero h1 {
             font-family: 'Spectral', Georgia, serif;
-            font-size: 5rem;
+            font-size: 6rem;
             font-weight: 800;
             font-style: italic;
-            margin-bottom: 2.5rem;
-            line-height: 1.1;
+            margin-bottom: 2rem;
+            line-height: 1.05;
             color: var(--text-dark);
-            letter-spacing: -1px;
+            letter-spacing: -2px;
+            text-decoration: underline;
+            text-decoration-color: var(--baker-miller-pink);
+            text-decoration-thickness: 6px;
+            text-underline-offset: 8px;
         }
 
         .hero h1 .highlight {
@@ -159,181 +163,151 @@
         .hero-buttons {
             display: flex;
             gap: 1rem;
-            justify-content: center;
+            justify-content: flex-start;
             flex-wrap: wrap;
         }
 
         .secondary-button {
-            background-color: transparent;
-            color: var(--text-dark);
+            background-color: var(--tropical-indigo);
+            color: var(--white);
             padding: 0.75rem 1.75rem;
             border-radius: 4px;
             text-decoration: none;
-            font-weight: 600;
+            font-weight: 700;
             font-size: 0.875rem;
-            border: 2px solid var(--text-dark);
+            border: none;
             transition: all 0.3s ease;
         }
 
         .secondary-button:hover {
-            background-color: var(--text-dark);
-            color: var(--white);
-            border-color: var(--text-dark);
+            background-color: var(--lavender-pink);
+            color: var(--text-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(184, 146, 255, 0.3);
         }
 
         /* Services Section */
         .services {
-            padding: 7rem 3rem;
-            max-width: 1400px;
+            padding: 4rem 3rem 3rem;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
         .section-title {
             font-family: 'Spectral', Georgia, serif;
-            text-align: center;
-            font-size: 3rem;
+            text-align: left;
+            font-size: 4rem;
             font-weight: 800;
             font-style: italic;
             margin-bottom: 1rem;
             color: var(--text-dark);
-            letter-spacing: -0.5px;
+            letter-spacing: -1px;
+            text-decoration: underline;
+            text-decoration-color: var(--light-coral);
+            text-decoration-thickness: 5px;
+            text-underline-offset: 6px;
         }
 
         .section-title .red {
-            color: var(--primary-color);
+            color: var(--tropical-indigo);
         }
 
         .section-subtitle {
-            text-align: center;
-            font-size: 1.125rem;
-            color: var(--text-light);
-            margin-bottom: 3.5rem;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
+            text-align: left;
+            font-size: 1.25rem;
+            color: var(--text-dark);
+            margin-bottom: 2.5rem;
+            max-width: 800px;
             font-weight: 400;
-            line-height: 1.6;
+            line-height: 1.7;
         }
 
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 3rem;
-            margin-top: 4rem;
-            max-width: 1100px;
-            margin-left: auto;
-            margin-right: auto;
+            gap: 2rem;
+            margin-top: 2rem;
         }
 
         .service-card {
-            background-color: var(--white);
-            padding: 2.5rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 12px var(--shadow-subtle);
+            background-color: transparent;
+            padding: 0;
+            border: none;
             transition: all 0.3s ease;
-            border: 1px solid #e5e5e5;
-            border-left: 4px solid var(--primary-color);
-        }
-
-        .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 28px rgba(110, 68, 255, 0.15);
-            border-left-width: 6px;
-        }
-
-        .service-icon {
-            width: 56px;
-            height: 56px;
-            background-color: rgba(110, 68, 255, 0.1);
-            color: var(--primary-color);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            font-size: 1.75rem;
-            border-radius: 8px;
-            font-weight: 700;
         }
 
         .service-card h3 {
             font-family: 'Spectral', Georgia, serif;
-            font-size: 1.5rem;
+            font-size: 2rem;
             font-weight: 800;
             font-style: italic;
             margin-bottom: 1rem;
-            color: var(--text-dark);
-            letter-spacing: 0;
+            color: var(--majorelle-blue);
+            letter-spacing: -0.5px;
+            text-decoration: underline;
+            text-decoration-color: var(--lavender-pink);
+            text-decoration-thickness: 3px;
+            text-underline-offset: 4px;
         }
 
         .service-card p {
-            color: var(--text-light);
-            line-height: 1.7;
+            color: var(--text-dark);
+            line-height: 1.8;
             font-weight: 400;
-            font-size: 1.0625rem;
+            font-size: 1.125rem;
         }
 
         /* Features Section */
         .features {
-            background-color: var(--light-bg);
-            padding: 6rem 3rem;
+            background-color: var(--cream);
+            padding: 4rem 3rem 3rem;
         }
 
         .features-content {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
         .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2.5rem;
-            margin-top: 3.5rem;
+            gap: 1.5rem;
+            margin-top: 2rem;
         }
 
         .feature-item {
-            display: flex;
-            gap: 1.25rem;
+            display: block;
         }
 
         .feature-icon {
-            width: 48px;
-            height: 48px;
-            background-color: var(--tropical-indigo);
-            color: var(--white);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-            font-size: 1.25rem;
-            border-radius: 6px;
-            font-weight: 700;
+            display: none;
         }
 
         .feature-content h4 {
             font-family: 'Spectral', Georgia, serif;
-            font-size: 1.125rem;
+            font-size: 1.375rem;
             font-weight: 800;
             font-style: italic;
             margin-bottom: 0.5rem;
-            color: var(--text-dark);
+            color: var(--light-coral);
             letter-spacing: 0;
         }
 
         .feature-content p {
-            color: var(--text-light);
-            font-size: 0.9375rem;
-            line-height: 1.6;
+            color: var(--text-dark);
+            font-size: 1rem;
+            line-height: 1.7;
             font-weight: 400;
         }
 
         /* Case Studies Section */
         .case-studies {
-            padding: 6rem 3rem;
+            padding: 4rem 3rem 3rem;
             background-color: var(--white);
         }
 
         .case-studies-content {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
@@ -377,32 +351,33 @@
 
         /* CTA Section */
         .cta-section {
-            background: linear-gradient(135deg, var(--majorelle-blue) 0%, var(--tropical-indigo) 100%);
+            background: linear-gradient(135deg, var(--majorelle-blue) 0%, var(--tropical-indigo) 50%, var(--lavender-pink) 100%);
             color: var(--white);
-            padding: 6rem 3rem;
-            text-align: center;
+            padding: 5rem 3rem 4rem;
+            text-align: left;
         }
 
         .cta-content {
-            max-width: 900px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
         .cta-section h2 {
             font-family: 'Spectral', Georgia, serif;
-            font-size: 3rem;
+            font-size: 4rem;
             font-weight: 800;
             font-style: italic;
-            margin-bottom: 1.25rem;
-            letter-spacing: -0.5px;
+            margin-bottom: 1.5rem;
+            letter-spacing: -1px;
         }
 
         .cta-section p {
             font-size: 1.25rem;
-            margin-bottom: 2.5rem;
+            margin-bottom: 2rem;
             opacity: 0.95;
             font-weight: 400;
-            line-height: 1.6;
+            line-height: 1.7;
+            max-width: 700px;
         }
 
         /* Footer */
@@ -468,11 +443,11 @@
             }
 
             .hero h1 {
-                font-size: 3rem;
+                font-size: 3.5rem;
             }
 
             .section-title {
-                font-size: 2rem;
+                font-size: 2.5rem;
             }
 
             .services,
@@ -531,13 +506,11 @@
         
         <div class="services-grid">
             <div class="service-card">
-                <div class="service-icon">⚙</div>
                 <h3>Tools</h3>
                 <p>We help you select, implement, and integrate the right technology for your team. From CRM systems to project management platforms, we ensure your tools work together seamlessly and your team knows how to use them effectively.</p>
             </div>
 
             <div class="service-card">
-                <div class="service-icon">▲</div>
                 <h3>Processes</h3>
                 <p>We design and optimize workflows that make your operations run smoothly. Whether it's defining delivery processes, establishing quality frameworks, or streamlining communication, we create systems that scale with your business.</p>
             </div>
@@ -552,7 +525,6 @@
             
             <div class="features-grid">
                 <div class="feature-item">
-                    <div class="feature-icon">✓</div>
                     <div class="feature-content">
                         <h4>Proven Expertise</h4>
                         <p>Years of experience implementing enterprise tools and optimizing business processes across industries.</p>
@@ -560,7 +532,6 @@
                 </div>
 
                 <div class="feature-item">
-                    <div class="feature-icon">▶</div>
                     <div class="feature-content">
                         <h4>Fast Implementation</h4>
                         <p>Get up and running quickly with our streamlined deployment process and comprehensive training.</p>
@@ -568,7 +539,6 @@
                 </div>
 
                 <div class="feature-item">
-                    <div class="feature-icon">+</div>
                     <div class="feature-content">
                         <h4>Hands-On Support</h4>
                         <p>We work alongside your team, providing guidance and support every step of the way.</p>
@@ -576,7 +546,6 @@
                 </div>
 
                 <div class="feature-item">
-                    <div class="feature-icon">↑</div>
                     <div class="feature-content">
                         <h4>Measurable Results</h4>
                         <p>Data-driven approach focused on delivering tangible improvements to your bottom line.</p>
@@ -584,7 +553,6 @@
                 </div>
 
                 <div class="feature-item">
-                    <div class="feature-icon">⟳</div>
                     <div class="feature-content">
                         <h4>Continuous Improvement</h4>
                         <p>Ongoing optimization and support to ensure your systems evolve with your business needs.</p>
@@ -592,7 +560,6 @@
                 </div>
 
                 <div class="feature-item">
-                    <div class="feature-icon">◆</div>
                     <div class="feature-content">
                         <h4>Team Training</h4>
                         <p>Comprehensive training programs to ensure your team maximizes the value of new tools and processes.</p>
