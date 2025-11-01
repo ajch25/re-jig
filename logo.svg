@@ -3,12 +3,12 @@
   
   <!-- Icon - Bold geometric shape -->
   <g transform="translate(10, 17)">
-    <rect x="0" y="0" width="24" height="24" fill="#6e44ff" rx="2"/>
+    <rect x="0" y="0" width="24" height="24" fill="#333333" rx="2"/>
     <path d="M8 8 L16 8 L16 16 L8 16 Z" fill="white" opacity="0.9"/>
   </g>
   
   <!-- Text: Re-Jig -->
-  <text x="45" y="40" font-family="Spectral, Georgia, serif" font-size="32" font-weight="800" font-style="italic" fill="#6e44ff" letter-spacing="0.5">
+  <text x="45" y="40" font-family="Spectral, Georgia, serif" font-size="32" font-weight="800" font-style="italic" fill="#333333" letter-spacing="0.5">
     Re-Jig
   </text>
 </svg>
