@@ -241,17 +241,14 @@
         }
 
         .service-card h3 {
-            font-family: 'Spectral', Georgia, serif;
-            font-size: 2rem;
-            font-weight: 800;
-            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-style: normal;
             margin-bottom: 1rem;
             color: var(--tropical-indigo);
-            letter-spacing: -0.5px;
-            text-decoration: underline;
-            text-decoration-color: var(--tropical-indigo);
-            text-decoration-thickness: 3px;
-            text-underline-offset: 4px;
+            letter-spacing: 0;
+            text-decoration: none;
         }
 
         .service-card p {
@@ -296,20 +293,65 @@
         }
 
         .feature-content h4 {
-            font-family: 'Spectral', Georgia, serif;
-            font-size: 2rem;
-            font-weight: 800;
-            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-style: normal;
             margin-bottom: 1rem;
             color: var(--light-coral);
-            letter-spacing: -0.5px;
-            text-decoration: underline;
-            text-decoration-color: var(--light-coral);
-            text-decoration-thickness: 3px;
-            text-underline-offset: 4px;
+            letter-spacing: 0;
+            text-decoration: none;
         }
 
         .feature-content p {
+            color: var(--text-dark);
+            font-size: 1.125rem;
+            line-height: 1.8;
+            font-weight: 400;
+        }
+
+        /* Team Section */
+        .team {
+            padding: 4rem 3rem 3rem;
+            background-color: var(--white);
+        }
+
+        .team-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .team .section-title {
+            text-decoration-color: var(--baker-miller-pink);
+        }
+
+        .team .section-title .red {
+            color: var(--baker-miller-pink);
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .team-member {
+            display: block;
+        }
+
+        .team-member h4 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-style: normal;
+            margin-bottom: 1rem;
+            color: var(--baker-miller-pink);
+            letter-spacing: 0;
+            text-decoration: none;
+        }
+
+        .team-member p {
             color: var(--text-dark);
             font-size: 1.125rem;
             line-height: 1.8;
@@ -468,10 +510,8 @@
             text-decoration: underline;
         }
 
-        .footer-bottom {
-            text-align: center;
-            padding-top: 2rem;
-            border-top: 1px solid var(--light-bg);
+        .footer-copyright {
+            margin-top: 2rem;
             color: var(--text-light);
             font-weight: 400;
             font-size: 0.875rem;
@@ -617,6 +657,46 @@
         </div>
     </section>
 
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="team-content">
+            <h2 class="section-title">The <span class="red">Team</span></h2>
+            <p class="section-subtitle">Each role brings unique value. Together, we make things happen.</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <h4>The Strategist</h4>
+                    <p>Sees the big picture. Connects dots between business goals and operational reality. Asks the right questions before jumping to solutions.</p>
+                </div>
+
+                <div class="team-member">
+                    <h4>The Builder</h4>
+                    <p>Makes things work. Configures systems, writes documentation, and ensures everything integrates smoothly. Obsessed with reliability.</p>
+                </div>
+
+                <div class="team-member">
+                    <h4>The Translator</h4>
+                    <p>Bridges technical and business worlds. Turns complex requirements into clear action plans. Makes sure everyone speaks the same language.</p>
+                </div>
+
+                <div class="team-member">
+                    <h4>The Optimizer</h4>
+                    <p>Questions everything. Finds bottlenecks and eliminates waste. Turns good processes into great ones through continuous refinement.</p>
+                </div>
+
+                <div class="team-member">
+                    <h4>The Coach</h4>
+                    <p>Empowers your team. Trains, supports, and guides adoption. Ensures changes stick long after we're gone.</p>
+                </div>
+
+                <div class="team-member">
+                    <h4>The Analyst</h4>
+                    <p>Lives in the data. Measures impact, tracks progress, and proves ROI. Makes sure improvements are real, not just perceived.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Case Studies Section -->
     <section id="clients" class="case-studies">
         <div class="case-studies-content">
@@ -683,15 +763,13 @@
                     <div class="footer-links">
                         <a href="#services">What We Do</a>
                         <a href="#features">Why Re-Jig</a>
-                        <a href="#clients">Our Clients</a>
+                        <a href="#team">Team</a>
+                        <a href="#clients">Clients</a>
                         <a href="mailto:hello@re-jig.com">hello@re-jig.com</a>
                     </div>
+                    <p class="footer-copyright">&copy; 2025 Re-Jig. All rights reserved.</p>
                 </div>
             </div>
-        </div>
-
-        <div class="footer-bottom">
-            <p>&copy; 2025 Re-Jig. All rights reserved.</p>
         </div>
     </footer>
 
