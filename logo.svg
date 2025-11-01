@@ -1,0 +1,14 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Re-Jig Logo -->
+  
+  <!-- Icon - Bold geometric shape -->
+  <g transform="translate(10, 17)">
+    <rect x="0" y="0" width="24" height="24" fill="#F52121" rx="2"/>
+    <path d="M8 8 L16 8 L16 16 L8 16 Z" fill="white" opacity="0.9"/>
+  </g>
+  
+  <!-- Text: Re-Jig -->
+  <text x="45" y="38" font-family="Momo Trust Display, Momo Trust Sans, sans-serif" font-size="24" font-weight="700" fill="#333333" letter-spacing="-0.5">
+    Re-Jig
+  </text>
+</svg>
