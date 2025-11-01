@@ -58,7 +58,7 @@
         nav {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 1.5rem 3rem;
+            padding: 0.75rem 3rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -111,7 +111,7 @@
         .cta-button {
             background-color: var(--text-dark);
             color: var(--white);
-            padding: 0.875rem 2rem;
+            padding: 0.5rem 1.25rem;
             border-radius: 0;
             text-decoration: none;
             font-weight: 700;
@@ -120,7 +120,8 @@
             border: 2px solid var(--text-dark);
             cursor: pointer;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
+            display: inline-block;
         }
 
         .cta-button:hover {
@@ -131,7 +132,7 @@
 
         /* Hero Section */
         .hero {
-            margin-top: 90px;
+            margin-top: 70px;
             background: linear-gradient(135deg, var(--white) 0%, var(--light-bg) 100%);
             color: var(--text-dark);
             padding: 5rem 3rem 4rem;
@@ -172,7 +173,7 @@
         .secondary-button {
             background-color: transparent;
             color: var(--text-dark);
-            padding: 0.875rem 2rem;
+            padding: 0.5rem 1.25rem;
             border-radius: 0;
             text-decoration: none;
             font-weight: 700;
@@ -180,7 +181,8 @@
             border: 2px solid var(--text-dark);
             transition: all 0.3s ease;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
+            display: inline-block;
         }
 
         .secondary-button:hover {
@@ -261,7 +263,7 @@
 
         /* Features Section */
         .features {
-            background-color: var(--tropical-indigo);
+            background-color: var(--white);
             padding: 4rem 3rem 3rem;
         }
 
@@ -271,22 +273,17 @@
         }
 
         .features .section-title {
-            color: var(--white);
-            text-decoration-color: var(--white);
+            text-decoration-color: var(--light-coral);
         }
 
         .features .section-title .red {
-            color: var(--white);
-        }
-
-        .features .section-subtitle {
-            color: var(--white);
+            color: var(--light-coral);
         }
 
         .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
+            gap: 2rem;
             margin-top: 2rem;
         }
 
@@ -300,23 +297,22 @@
 
         .feature-content h4 {
             font-family: 'Spectral', Georgia, serif;
-            font-size: 1.375rem;
+            font-size: 2rem;
             font-weight: 800;
             font-style: italic;
-            margin-bottom: 0.5rem;
-            color: var(--white);
-            letter-spacing: 0;
-        }
-
-        .feature-content h4::before {
-            content: '→ ';
-            color: var(--white);
+            margin-bottom: 1rem;
+            color: var(--light-coral);
+            letter-spacing: -0.5px;
+            text-decoration: underline;
+            text-decoration-color: var(--light-coral);
+            text-decoration-thickness: 3px;
+            text-underline-offset: 4px;
         }
 
         .feature-content p {
-            color: var(--white);
-            font-size: 1rem;
-            line-height: 1.7;
+            color: var(--text-dark);
+            font-size: 1.125rem;
+            line-height: 1.8;
             font-weight: 400;
         }
 
@@ -537,7 +533,6 @@
                 <li><a href="#clients">Clients</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <a href="#contact" class="cta-button">Get Started</a>
         </nav>
     </header>
 
