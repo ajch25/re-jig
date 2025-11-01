@@ -66,12 +66,12 @@
 
         .logo {
             font-family: 'Spectral', Georgia, serif;
-            font-size: 1.5rem;
-            font-weight: 700;
+            font-size: 1.75rem;
+            font-weight: 800;
             font-style: italic;
-            color: var(--primary-color);
+            color: var(--majorelle-blue);
             text-decoration: none;
-            letter-spacing: 0;
+            letter-spacing: 0.5px;
         }
 
         .nav-links {
@@ -96,12 +96,12 @@
             left: 0;
             width: 0;
             height: 2px;
-            background-color: var(--primary-color);
+            background-color: var(--majorelle-blue);
             transition: width 0.3s ease;
         }
 
         .nav-links a:hover {
-            color: var(--primary-color);
+            color: var(--majorelle-blue);
         }
 
         .nav-links a:hover::after {
@@ -109,22 +109,24 @@
         }
 
         .cta-button {
-            background-color: var(--primary-color);
+            background-color: var(--text-dark);
             color: var(--white);
-            padding: 0.75rem 1.75rem;
-            border-radius: 4px;
+            padding: 0.875rem 2rem;
+            border-radius: 0;
             text-decoration: none;
             font-weight: 700;
             font-size: 0.875rem;
             transition: all 0.3s ease;
-            border: none;
+            border: 2px solid var(--text-dark);
             cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .cta-button:hover {
-            background-color: var(--secondary-color);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(110, 68, 255, 0.3);
+            background-color: var(--white);
+            color: var(--text-dark);
+            border-color: var(--text-dark);
         }
 
         /* Hero Section */
@@ -151,13 +153,13 @@
             color: var(--text-dark);
             letter-spacing: -2px;
             text-decoration: underline;
-            text-decoration-color: var(--baker-miller-pink);
+            text-decoration-color: var(--majorelle-blue);
             text-decoration-thickness: 6px;
             text-underline-offset: 8px;
         }
 
         .hero h1 .highlight {
-            color: var(--primary-color);
+            color: var(--majorelle-blue);
         }
 
         .hero-buttons {
@@ -168,22 +170,22 @@
         }
 
         .secondary-button {
-            background-color: var(--tropical-indigo);
-            color: var(--white);
-            padding: 0.75rem 1.75rem;
-            border-radius: 4px;
+            background-color: transparent;
+            color: var(--text-dark);
+            padding: 0.875rem 2rem;
+            border-radius: 0;
             text-decoration: none;
             font-weight: 700;
             font-size: 0.875rem;
-            border: none;
+            border: 2px solid var(--text-dark);
             transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .secondary-button:hover {
-            background-color: var(--lavender-pink);
-            color: var(--text-dark);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(184, 146, 255, 0.3);
+            background-color: var(--text-dark);
+            color: var(--white);
         }
 
         /* Services Section */
@@ -203,7 +205,7 @@
             color: var(--text-dark);
             letter-spacing: -1px;
             text-decoration: underline;
-            text-decoration-color: var(--light-coral);
+            text-decoration-color: var(--tropical-indigo);
             text-decoration-thickness: 5px;
             text-underline-offset: 6px;
         }
@@ -242,10 +244,10 @@
             font-weight: 800;
             font-style: italic;
             margin-bottom: 1rem;
-            color: var(--majorelle-blue);
+            color: var(--tropical-indigo);
             letter-spacing: -0.5px;
             text-decoration: underline;
-            text-decoration-color: var(--lavender-pink);
+            text-decoration-color: var(--tropical-indigo);
             text-decoration-thickness: 3px;
             text-underline-offset: 4px;
         }
@@ -289,7 +291,7 @@
             font-weight: 800;
             font-style: italic;
             margin-bottom: 0.5rem;
-            color: var(--light-coral);
+            color: var(--lavender-pink);
             letter-spacing: 0;
         }
 
@@ -351,7 +353,7 @@
 
         /* CTA Section */
         .cta-section {
-            background: linear-gradient(135deg, var(--majorelle-blue) 0%, var(--tropical-indigo) 50%, var(--lavender-pink) 100%);
+            background: var(--light-coral);
             color: var(--white);
             padding: 5rem 3rem 4rem;
             text-align: left;
@@ -369,61 +371,81 @@
             font-style: italic;
             margin-bottom: 1.5rem;
             letter-spacing: -1px;
+            text-decoration: underline;
+            text-decoration-color: var(--white);
+            text-decoration-thickness: 5px;
+            text-underline-offset: 6px;
         }
 
         .cta-section p {
             font-size: 1.25rem;
             margin-bottom: 2rem;
-            opacity: 0.95;
             font-weight: 400;
             line-height: 1.7;
             max-width: 700px;
         }
+        
+        .cta-section .cta-button {
+            background-color: var(--white);
+            color: var(--light-coral);
+            border-color: var(--white);
+        }
+        
+        .cta-section .cta-button:hover {
+            background-color: transparent;
+            color: var(--white);
+            border-color: var(--white);
+        }
 
         /* Footer */
         footer {
-            background-color: var(--dark-bg);
-            color: var(--white);
-            padding: 4rem 3rem 2rem;
+            background-color: var(--white);
+            color: var(--text-dark);
+            padding: 3rem 3rem 2rem;
+            border-top: 3px solid var(--baker-miller-pink);
         }
 
         .footer-content {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 3rem;
-            margin-bottom: 3rem;
+            gap: 2rem;
+            margin-bottom: 2rem;
         }
 
         .footer-section h3 {
-            font-size: 1.125rem;
-            font-weight: 700;
-            margin-bottom: 1.25rem;
-            letter-spacing: -0.2px;
+            font-family: 'Spectral', Georgia, serif;
+            font-size: 1.25rem;
+            font-weight: 800;
+            font-style: italic;
+            margin-bottom: 1rem;
+            letter-spacing: 0;
+            color: var(--baker-miller-pink);
         }
 
         .footer-section p,
         .footer-section a {
-            color: rgba(255, 255, 255, 0.7);
+            color: var(--text-dark);
             text-decoration: none;
             display: block;
-            margin-bottom: 0.625rem;
+            margin-bottom: 0.5rem;
             font-weight: 400;
-            line-height: 1.6;
+            line-height: 1.7;
             transition: color 0.3s ease;
             font-size: 0.9375rem;
         }
 
         .footer-section a:hover {
-            color: var(--lavender-pink);
+            color: var(--baker-miller-pink);
+            text-decoration: underline;
         }
 
         .footer-bottom {
             text-align: center;
-            padding-top: 2.5rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: rgba(255, 255, 255, 0.6);
+            padding-top: 2rem;
+            border-top: 1px solid var(--light-bg);
+            color: var(--text-light);
             font-weight: 400;
             font-size: 0.875rem;
         }
@@ -621,7 +643,7 @@
         <div class="cta-content">
             <h2>Ready to Transform Your Business?</h2>
             <p>Let's discuss how we can help you implement the right tools, optimize your processes, and achieve your strategic goals.</p>
-            <a href="mailto:hello@re-jig.com" class="cta-button" style="background-color: white; color: var(--majorelle-blue); font-weight: 700;">Contact Us Today</a>
+            <a href="mailto:hello@re-jig.com" class="cta-button">Contact Us Today</a>
         </div>
     </section>
 
