@@ -1,31 +1,16 @@
 # Re-Jig
 
-**Technology and Strategic Consultancy**
+**The Operational Upgrade You Need**
 
-Re-Jig is a professional consultancy specializing in helping businesses optimize their operations through strategic tool implementation and process optimization.
+Re-Jig is a technology and strategic consultancy that helps businesses implement the right tools and optimize their processes to work smarter, faster, and better.
 
 ## 🎯 What We Do
 
-### Tool Implementation
-We help organizations implement and integrate essential business tools:
-- **CRM Systems**: HubSpot, Salesforce, Zoho
-- **Project Management**: JIRA, Asana, Monday.com
-- **Communication Tools**: Slack, Microsoft Teams
-- **Analytics Platforms**: Tableau, Power BI, Mixpanel
+### Tools
+We help you select, implement, and integrate the right technology for your team. From CRM systems to project management platforms, we ensure your tools work together seamlessly and your team knows how to use them effectively.
 
-### Process Optimization
-Define and refine internal delivery processes:
-- Workflow analysis and redesign
-- Agile and Scrum implementation
-- DevOps and CI/CD pipelines
-- Quality assurance frameworks
-
-### KPI Definition & Tracking
-Establish meaningful metrics aligned with business goals:
-- Custom KPI framework development
-- Dashboard and reporting setup
-- Performance benchmarking
-- Data-driven insights and recommendations
+### Processes
+We design and optimize workflows that make your operations run smoothly. Whether it's defining delivery processes, establishing quality frameworks, or streamlining communication, we create systems that scale with your business.
 
 ## 🌐 Website
 
@@ -36,23 +21,27 @@ Visit us at: [re-jig.com](https://re-jig.com)
 - Email: hello@re-jig.com
 - Info: info@re-jig.com
 
-## 🚀 Our Approach
+## 🚀 Deployment
 
-We combine technical expertise with strategic thinking to deliver:
-- **Proven Expertise**: Years of experience across industries
-- **Fast Implementation**: Streamlined deployment and training
-- **Hands-On Support**: Working alongside your team
-- **Measurable Results**: Data-driven tangible improvements
-- **Continuous Improvement**: Ongoing optimization and support
-- **Team Training**: Comprehensive training programs
+This website is deployed on Cloudflare Pages.
 
-## 💼 Why Choose Re-Jig
+### Local Development
+Simply open `index.html` in your browser to view the site locally.
 
-Transform your business operations with our expert guidance. We help you:
-- Implement the right tools for your specific needs
-- Optimize processes for maximum efficiency
-- Define and track KPIs that matter
-- Achieve measurable business results
+### Cloudflare Pages Deployment
+1. Push this repository to GitHub
+2. Connect your GitHub repository to Cloudflare Pages
+3. Configure build settings:
+   - Build command: (none required - static site)
+   - Build output directory: `/`
+4. Deploy!
+
+## 🛠️ Tech Stack
+
+- Pure HTML/CSS/JavaScript (no build process required)
+- Momo Trust fonts from Google Fonts
+- SVG graphics for logos and icons
+- Responsive design with CSS Grid
 
 ---
 
