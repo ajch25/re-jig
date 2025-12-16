@@ -24,7 +24,7 @@
             --light-coral: #ef7a85;
             --primary-color: #6e44ff;
             --secondary-color: #5533cc;
-            --accent-color: #b892ff;
+            --accent-color: #6e44ff;
             --dark-bg: #1a1a1a;
             --light-bg: #f8f8f8;
             --cream: #fafafa;
@@ -163,6 +163,16 @@
             color: var(--majorelle-blue);
         }
 
+        .hero-subtitle {
+            font-size: 1.5rem;
+            font-weight: 400;
+            font-style: normal;
+            color: var(--text-dark);
+            margin-bottom: 2rem;
+            line-height: 1.4;
+            max-width: 800px;
+        }
+
         .hero-buttons {
             display: flex;
             gap: 1rem;
@@ -207,13 +217,13 @@
             color: var(--text-dark);
             letter-spacing: -1px;
             text-decoration: underline;
-            text-decoration-color: var(--tropical-indigo);
+            text-decoration-color: var(--majorelle-blue);
             text-decoration-thickness: 5px;
             text-underline-offset: 6px;
         }
 
         .section-title .red {
-            color: var(--tropical-indigo);
+            color: var(--majorelle-blue);
         }
 
         .section-subtitle {
@@ -270,11 +280,11 @@
         }
 
         .features .section-title {
-            text-decoration-color: var(--light-coral);
+            text-decoration-color: var(--majorelle-blue);
         }
 
         .features .section-title .red {
-            color: var(--light-coral);
+            color: var(--majorelle-blue);
         }
 
         .features-grid {
@@ -322,11 +332,11 @@
         }
 
         .team .section-title {
-            text-decoration-color: var(--baker-miller-pink);
+            text-decoration-color: var(--majorelle-blue);
         }
 
         .team .section-title .red {
-            color: var(--baker-miller-pink);
+            color: var(--majorelle-blue);
         }
 
         .team-grid {
@@ -428,13 +438,13 @@
             margin-bottom: 1rem;
             letter-spacing: -1px;
             text-decoration: underline;
-            text-decoration-color: var(--light-coral);
+            text-decoration-color: var(--majorelle-blue);
             text-decoration-thickness: 5px;
             text-underline-offset: 6px;
         }
 
         .cta-section h2 .highlight {
-            color: var(--light-coral);
+            color: var(--majorelle-blue);
         }
 
         .cta-section p {
@@ -447,7 +457,7 @@
 
         /* Footer */
         footer {
-            background: var(--light-coral);
+            background: var(--majorelle-blue);
             color: var(--white);
             padding: 5rem 3rem 3rem;
         }
@@ -562,7 +572,6 @@
                 <li><a href="#services">Services</a></li>
                 <li><a href="#features">Why Us</a></li>
                 <li><a href="#team">Team</a></li>
-                <li><a href="#clients">Clients</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -571,7 +580,8 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>The Operational <span class="highlight">Upgrade</span> You Need</h1>
+            <h1>Where Sustainability teams come to <span class="highlight">grow</span>.</h1>
+            <p class="hero-subtitle">Taking sustainability businesses to next level.</p>
             <div class="hero-buttons">
                 <a href="#contact" class="cta-button">Schedule a Consultation</a>
                 <a href="#services" class="secondary-button">Learn More</a>
@@ -689,53 +699,6 @@
         </div>
     </section>
 
-    <!-- Case Studies Section -->
-    <section id="clients" class="case-studies">
-        <div class="case-studies-content">
-            <h2 class="section-title">Trusted by <span class="red">Leading Organizations</span></h2>
-            <p class="section-subtitle">We've helped organizations of all sizes transform their operations and achieve measurable results</p>
-            
-            <div class="clients-grid">
-                <div class="client-logo">
-                    <svg width="140" height="50" viewBox="0 0 140 50" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="10" y="15" width="120" height="20" fill="#333" rx="2"/>
-                        <text x="70" y="32" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">ACME Corp</text>
-                    </svg>
-                </div>
-                <div class="client-logo">
-                    <svg width="140" height="50" viewBox="0 0 140 50" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="35" cy="25" r="12" fill="#555"/>
-                        <text x="55" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#555">TechFlow</text>
-                    </svg>
-                </div>
-                <div class="client-logo">
-                    <svg width="140" height="50" viewBox="0 0 140 50" xmlns="http://www.w3.org/2000/svg">
-                        <polygon points="20,10 40,10 30,30" fill="#444"/>
-                        <text x="50" y="25" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#444">Innovate Labs</text>
-                    </svg>
-                </div>
-                <div class="client-logo">
-                    <svg width="140" height="50" viewBox="0 0 140 50" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="15" y="18" width="15" height="15" fill="#666" rx="3"/>
-                        <text x="40" y="30" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#666">DataSync</text>
-                    </svg>
-                </div>
-                <div class="client-logo">
-                    <svg width="140" height="50" viewBox="0 0 140 50" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20 25 L35 15 L35 35 Z" fill="#555"/>
-                        <text x="45" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#555">StreamLine Inc</text>
-                    </svg>
-                </div>
-                <div class="client-logo">
-                    <svg width="140" height="50" viewBox="0 0 140 50" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="25" cy="25" r="10" fill="none" stroke="#444" stroke-width="2"/>
-                        <text x="45" y="30" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#444">CloudBase</text>
-                    </svg>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- CTA Section -->
     <section id="contact" class="cta-section">
         <div class="cta-content">
@@ -756,7 +719,6 @@
                         <a href="#services">What We Do</a>
                         <a href="#features">Why Re-Jig</a>
                         <a href="#team">Team</a>
-                        <a href="#clients">Clients</a>
                         <a href="mailto:hello@re-jig.com">hello@re-jig.com</a>
                     </div>
                     <p class="footer-copyright">&copy; 2025 Re-Jig. All rights reserved.</p>
